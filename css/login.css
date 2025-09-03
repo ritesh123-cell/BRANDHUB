@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-image: url(https://help.nextcloud.com/uploads/default/original/3X/2/3/23cbcf8f59cdfda285a3a922b7677c0fa54f795b.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.login-form{
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 2px solid gray;
+    box-shadow: 0 0 7px 5px rgba(0,0,0, 0.5);
+    backdrop-filter: blur(25px);
+
+}
+h1{
+    font-size: 35px;
+    line-height: 25px;
+    padding: 30px;
+    text-align: center;
+}
+h2{
+     font-size: 35px;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+}
+span{
+    color: red;
+}
+
+
+
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px;
+    
+}
+.lock{
+    position: absolute;
+    padding: 8px ;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    
+}
+.name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+     border: 1px solid rgb(204, 204, 204);
+    outline:none;
+    height: 35px;
+    background: transparent;
+    color: white;
+    
+   
+    
+    
+}
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    color: rgb(232, 232, 232);
+    border-right:1px solid rgba(204, 204, 204, 0.8);
+    bottom: 1px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+::placeholder{
+    color: rgb(225, 225, 225);
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.forgot a{
+    color: rgb(228, 226, 226);
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.forgot{
+    margin-top: 15px;
+}
+.remember-me{
+    color: rgb(228, 226, 226);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.login-button{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+     border: 1px solid rgb(204, 204, 204);
+    outline:none;
+    border-radius: 35px;
+    font-size: 15px;
+    background-color:  rgb(228, 226, 226);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-button:hover{
+    background-color: rgb(1, 122, 43);
+    color: white;
+}
+.forgot a:hover{
+    color: rgb(105, 142, 226);
+}
+.register{
+    text-align: center;
+    color: rgb(228, 226, 226);
+
+}
+.register a{
+    font-weight: 500px;
+    color: white;
+}
